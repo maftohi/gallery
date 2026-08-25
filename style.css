@@ -334,3 +334,23 @@ body.lb-open{overflow:hidden}
 
   .hero-foot { padding-bottom: 1rem; }
 }
+/* ═══════════════════════════════════════════
+لینک دسته‌بندی‌ها در سربرگ + جمله یک‌خطره در موبایل
+═══════════════════════════════════════════ */
+.head-cats{
+    font-size:.85rem;
+    color:var(--muted);
+    transition:color .3s;
+}
+.head-cats:hover{color:var(--amber)}
+
+@media (max-width:640px){
+    .hero-foot{padding-bottom:1rem;gap:.5rem}
+    .hero-shot{
+        display:block;
+        font-size:.58rem;
+        letter-spacing:0;
+        white-space:nowrap;
+    }
+    .scroll-line{display:none}
+}
