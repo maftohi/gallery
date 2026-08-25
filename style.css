@@ -296,3 +296,41 @@ body.lb-open{overflow:hidden}
     from{transform:translateX(0)}
     to{transform:translateX(50%)}
 }
+/* ═══════════════════════════════════════════
+انتقال متن‌های افتتاحیه به پایین صفحه در موبایل
+═══════════════════════════════════════════ */
+@media (max-width: 900px) {
+
+  /* هل دادن محتوای افتتاحیه به پایین */
+  .hero { justify-content: flex-end; }
+
+  /* تیره‌تر کردن پایین تصویر برای خوانایی متن‌ها */
+  .hero-tint {
+    background: linear-gradient(180deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.18) 55%, rgba(0,0,0,.78) 100%);
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    padding-top: 4.5rem;
+    padding-bottom: 1.5rem;
+    gap: 1.2rem;
+  }
+
+  /* عنوان کمی کوچک‌تر در موبایل */
+  .hero-title { font-size: clamp(4rem, 17vw, 7.5rem); }
+
+  .hero-sub { font-size: .88rem; }
+
+  .hero-meta { margin-top: .8rem; }
+  .hero-meta span { font-size: .62rem; padding: .2rem .6rem; }
+
+  .hero-actions { margin-top: 1rem; }
+
+  /* فهرست دسته‌ها: فشرده و در پایین */
+  .hero-index { display: none; }
+  .hi-row { padding: .45rem .2rem; gap: .7rem; }
+  .hi-name { font-size: 1.15rem; }
+  .hbar { display: none; }
+
+  .hero-foot { padding-bottom: 1rem; }
+}
