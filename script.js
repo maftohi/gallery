@@ -294,7 +294,7 @@ document.addEventListener('click', e => {
 });
 
 /* ───────── آمار و پابرگ ───────── */
-$('#headCount').textContent = faNum(TOTAL);
+if ($('#headCount')) $('#headCount').textContent = faNum(TOTAL);
 $('#heroTotal').textContent = faNum(TOTAL) + ' فریم';
 $('#statFrames').textContent = faNum(TOTAL);
 $('#statCats').textContent = faNum(CONFIG.categories.length);
