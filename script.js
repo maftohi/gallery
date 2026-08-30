@@ -10,7 +10,11 @@ const CONFIG = {
     { id: 'nature',   fa: 'طبیعت',    en: 'NATURE',   color: '#8fb573', count: 21 },
     { id: 'people',   fa: 'مردم',     en: 'PEOPLE',   color: '#e08e6d', count: 35 },
     { id: 'wildlife', fa: 'حیات وحش', en: 'WILDLIFE', color: '#d9a05b', count: 40 },
+<<<<<<< HEAD
     { id: 'misc',     fa: 'متفرقه',    en: 'MISC',     color: '#7fa9b8', count: 11 }
+=======
+    { id: 'misc',     fa: 'متفرقه',   en: 'MISC',     color: '#7fa9b8', count: 11 }
+>>>>>>> 53d27bda0e60e55753801b97bd33f86549744e1c
   ]
 };
 
