@@ -7,10 +7,10 @@ const CONFIG = {
   thumb: 'thumbnails',
   ext: 'jpg',
   categories: [
-    { id: 'nature',   fa: 'طبیعت',    en: 'NATURE',   color: '#8fb573', count: 18 },
-    { id: 'people',   fa: 'مردم',     en: 'PEOPLE',   color: '#e08e6d', count: 19 },
-    { id: 'wildlife', fa: 'حیات وحش', en: 'WILDLIFE', color: '#d9a05b', count: 21 },
-    { id: 'misc',     fa: 'متفرقه',   en: 'MISC',     color: '#7fa9b8', count: 5 }
+    { id: 'nature',   fa: 'طبیعت',    en: 'NATURE',   color: '#8fb573', count: 21 },
+    { id: 'people',   fa: 'مردم',     en: 'PEOPLE',   color: '#e08e6d', count: 35 },
+    { id: 'wildlife', fa: 'حیات وحش', en: 'WILDLIFE', color: '#d9a05b', count: 40 },
+    { id: 'misc',     fa: 'متفرقه',   en: 'MISC',     color: '#7fa9b8', count: 11 }
   ]
 };
 
